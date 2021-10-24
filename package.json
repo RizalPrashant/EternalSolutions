@@ -1,0 +1,19 @@
+{
+  "name": "eternalsolutions",
+  "version": "1.0.0",
+  "description": "Eternal Engineering Solutions",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RizalPrashant/EternalSolutions.git"
+  },
+  "author": "Prashant Rizal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RizalPrashant/EternalSolutions/issues"
+  },
+  "homepage": "https://github.com/RizalPrashant/EternalSolutions#readme"
+}
