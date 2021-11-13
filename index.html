@@ -350,29 +350,31 @@
                             <h2 class="py-2">Send your query</h2>
                             <p class="para-light">Please provide as much details as possible.</p>
                         </div>
+                        <form action="emailsubmit.php" method="post">
                         <div>
                             <div class="row" >
                                 <div class="col-lg-6">
                                     <div class="form-group py-2">
-                                        <input type="text" class="form-control form-control-input" id="exampleFormControlInput1" placeholder="Enter name">
+                                        <input name="name" type="text" class="form-control form-control-input" id="exampleFormControlInput1" placeholder="Enter name">
                                     </div>                                
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="form-group py-2">
-                                        <input type="email" class="form-control form-control-input" id="exampleFormControlInput2" placeholder="Enter phone number">
+                                        <input  name="phnumber" type="email" class="form-control form-control-input" id="exampleFormControlInput2" placeholder="Enter phone number">
                                     </div>                                 
                                 </div>
                             </div>
                             <div class="form-group py-1">
-                                <input type="email" class="form-control form-control-input" id="exampleFormControlInput3" placeholder="Enter email">
+                                <input name="email" type="email" class="form-control form-control-input" id="exampleFormControlInput3" placeholder="Enter email">
                             </div>  
                             <div class="form-group py-2">
-                                <textarea class="form-control form-control-input" id="exampleFormControlTextarea1" rows="6" placeholder="Message"></textarea>
+                                <textarea name="message" class="form-control form-control-input" id="exampleFormControlTextarea1" rows="6" placeholder="Message"></textarea>
                             </div>                            
                         </div>
                         <div class="my-3">
-                            <a class="btn form-control-submit-button" href="#your-link">Submit</a>
+                            <input type="submit" value="Send"></input>
                         </div>
+                    </form>
                     </div> <!-- end of div -->
                 </div> <!-- end of col -->
                 <div class="col-lg-6 d-flex align-items-center" data-aos="fade-down">
