@@ -269,7 +269,7 @@ li {
 /****************/
 .home {
 	background-image: url(../assets/images/eternal_logo.jpeg);
-	background-size: cover;
+	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
